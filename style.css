@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .btn{
+margin: 40px 5px;
+padding: 10px 20px;
+outline: none;
+border: none;
+border-radius: 5px;
+}
+
+.container .btn:hover{
+    background-color: rgb(95, 95, 95);
+    color: white;
+    }
+
+#value{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.container h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
